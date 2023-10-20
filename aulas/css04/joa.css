@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    medidas absolutas 
+    cm, mm, in, px, pt, p
+
+    medidas relativaS
+    em, ex, rem, vw, vh, %
+    
+    16px e iagual a 1em
+    
+    */
+    /* lighter, normal, bold, bolder*/
+}
+h1{
+    /* font-family: 'work Sans' sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    /*font style, fonte weight, fonte size, font family siga a sequencia*/
+    font: italic bolder 3em 'work Sans', sans-serif;
+    
+}
