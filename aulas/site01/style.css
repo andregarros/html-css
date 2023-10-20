@@ -162,7 +162,22 @@ aside  > h3{
 }
 
 .video{
+  padding: 10px;
+  margin: 0px -10px 30px -20px;
+  padding-bottom: 58%;
+  position: relative;
   
+}
+
+.video > iframe{
+   position: absolute;
+   top: 5%;
+   right: 5%;
+   bottom: 5%;
+   left: 5%;
+   margin: auto;
+   width: 70%;
+   height: 70%;
 }
     
         
