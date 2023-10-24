@@ -2,51 +2,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
+html, body{
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+    font-size: 1em;
+}
 *{
     margin: 0px;
     padding: 0px;
 }
-
-
-main{}
 header{
-
     background-color: black;
-    min-height: 150px;
-    font-family:'Passion One', sans-serif;
-    padding-bottom: 30px;
-    
-}
-h1{
-    color: white;
-     text-align: center;
-     padding-top: 50px;
-     font-size: 5em;
-     font-size: 10vw;
-     
-  
-     
-    
-}
-
-h3{
     color: white;
     text-align: center;
 }
-body{
-    background-color: white;
-
+h1{
+    padding-top: 50px;
+    font-size: 10vw;
 }
-p{
-   padding: 10px;
-  
+h3{
+    padding-bottom: 40px;
 }
-
-article{
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+section{
     font-size: 3.5vw;
-    font-family: 'Sriracha', cursive;
-    line-height: 2em;
+   line-height: 2em;
+  padding: 40px 20px;
+   font-family: 'Sriracha';
+  
    
+   
+}
+
+
+.paragrafo2{
+    background-color: rgb(41, 37, 37);
+    margin: 10px -40px 0px -40px;
+    padding: 40px;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+
+.p2{
+    padding: 0px 19px;
+}
+.p2 p{
+    background-color: rgba(0, 0, 0, 0.514) ;
+    padding: 5px;
+    display: inline-block;
+    color: white; 
+}
+
+.paragrafo5{
+    background-image: url(imagens/background002.jpg);
+    background-color: rgb(41, 37, 37);
+    margin: 10px -40px 0px -40px;
+    padding: 40px;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: 90%;
+    background-repeat: no-repeat ;
+    background-size: auto;
+    
 }
