@@ -42,7 +42,7 @@ section{
     background-image: url(imagens/background001.jpg);
     background-attachment: scroll;
     background-attachment: fixed;
-    background-position: 90%;
+    background-position: right center;
     background-repeat: no-repeat ;
     background-size: cover;
 
@@ -59,14 +59,11 @@ section{
 }
 
 .paragrafo5{
-    background-image: url(imagens/background002.jpg);
-    background-color: rgb(41, 37, 37);
-    margin: 10px -40px 0px -40px;
-    padding: 40px;
-    background-attachment: scroll;
-    background-attachment: fixed;
-    background-position: 90%;
-    background-repeat: no-repeat ;
-    background-size: auto;
+  background-image: url(imagens/background002.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: left;
+  margin: 0px 0px 0px -20px;
+  
     
 }
