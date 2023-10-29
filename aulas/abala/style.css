@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: #015958;
+   min-width: 320px;
+   background-image: linear-gradient(to left, #ED1B0C, #F73B0C, #E04F00, #F7820C);
+   background-size: 500% 100%;
+   animation: degrade-animado 2s infinite alternate;
+}
+@keyframes degrade-animado{
+  0%{
+    background-position-x:0% ;
+  }
+  100%{
+    background-position-x: 100%;
+  }
+}
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+header > h1{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 1,5em;
+}
+header > p{
+    
+    font-weight: normal;
+    width: 250px;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Sometype Mono', monospace;
+    
+    
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+}
+ul{
+    text-align: center;
+    padding-top: 60px ;
+    list-style: none;
+    
+    
+
+}
+li{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #BFBFBF;
+    width: 300px;
+    border-radius: 10px 30px;
+    padding: 15px 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+     
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-color: white;
+    box-shadow: 0px 0px 30px white ;
+    transition: 0.1s;
+    
+}

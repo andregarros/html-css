@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+           border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th{
+            background-color: rgb(64, 64, 64);
+            color: white;
+            font-weight: bold;
+        }
+       .color{
+        background-color: white;
+        color: black;
+       
+       }
+       .cor{
+        background-color: rgb(64, 64, 64);
+        font-weight: bold;
+        color: white;
+       }
+
+     
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th rowspan="2">Area</th>
+            <th rowspan="2">disciplina</th>
+            <th colspan="2">notas</th>
+            <th rowspan="2">medias</th>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" class="color">Exatas</th>
+                <td>Matematica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <th colspan="4">Medias de Exatas</th>
+                <td class="cor">0.0</td>
+                <tr>
+                    <th rowspan="2" class="color">Humanismo</th>
+                    <td>Historia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th colspan="4">medias humanas</th> 
+                    <td class="cor">0.0</td>
+                </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
