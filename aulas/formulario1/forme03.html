@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario 03</h1>
+    <form action="formulario.php" method="post" autocomplete="on">
+    <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" placeholder="Nome completo" maxlength="60" autocomplete="name" required>
+    </p>
+    <p>
+        <label for="inume">Notas</label>
+        <input type="number" name="num" id="inum" step="0.1">
+    </p>
+    <p>
+        <label for="imes">periodo letivo</label>
+        <input type="month" name="mes" id="imes">
+    </p>
+    <p>
+        <label for="idia">dia da prova</label>
+        <input type="date" name="dia" id="idia" value="2024-07-05">
+    </p>
+    <p>
+        <label for="ihora">hora da prova</label>
+        <input type="time" name="hora" id="ihora" value="23">
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+
+</form>
+</body>
+</html>
