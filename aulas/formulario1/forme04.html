@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>formulario email e telefone</h1>
+    <form action="" method="post" autocomplete="on">
+
+     <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+         <p>
+            <label for="iemail">email</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
+         </p>
+         <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" required>
+         </p>
+         <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+         </p>
+     </fieldset>
+
+
+    </form>
+</body>
+</html>
