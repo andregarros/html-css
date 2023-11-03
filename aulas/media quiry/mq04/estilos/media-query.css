@@ -1,0 +1,51 @@
+/*todas as demais midias*/
+
+/* pequenas telas ate 600px
+ celular 600px ate 768px
+ tablet 768px ate 992 px
+ desktop 992px ate 1200px
+ telas grandes acima de 1200px*/
+
+@media print{ p}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #print{display: none;}
+    #tablet{display: block;}
+    #tv{display: none;}
+    #pc {display: none;}
+    main{
+        background-color: rgba(255, 228, 196, 0.356);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #print{display: none;}
+    #tablet{display: none;}
+    #tv{display: none;}
+    #pc {display: block;}
+
+
+}
+
+@media screen and (min-width:1200px){
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+        
+    }
+    #phone{display: none;}
+    #print{display: none;}
+    #tablet{display: none;}
+    #tv{display: block;}
+    #pc {display: none;}
+}
