@@ -13,26 +13,40 @@ h1{
     padding: 10px;
     text-align: center;
 }
-menu{
-    display: block;
+#itens{
+    display: none;
+   
  
 }
 
 menu > ul {
     list-style-type: none;
+    
 }
-menu a{
-    display: none;
+
+a{
+
+        
+    border: 2px solid rgb(96, 94, 94); 
+    width: 100%;
+    padding: 20px;
+    margin: -10px;
+ 
+}
+menu ,a{
+    display: block;
     padding: 10px;
     text-decoration: none;
     background-color: rgb(74, 68, 68);
     color: white;
-    text-decoration: none;
     text-align: center;
-    border: 2px solid rgb(96, 94, 94);
+    
+    
 }
-menu, a:hover{
-    background-color: gray ;
+
+ul{
+    color: white;
+
 }
 main{
     width: 90vw;
@@ -45,11 +59,14 @@ main{
 p{
     text-align: justify;
 }
-span{
+#hamburguer:hover{
+    background-color: darkkhaki;
+}
+#hamburguer{
     background-color: darkslategrey;
-    width: 100vh;
-    display: block;
+    width: 100%;
     margin: auto;
     text-align: center;
     cursor: pointer;
+    display: block;
 }
