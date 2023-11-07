@@ -7,29 +7,25 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/print.css">
 </head>
-<body>
+<body onresize="Tamanho()">
     <header>
         <h1>meu site</h1>
         <i id="hamburguer" class="material-icons" onclick="clickMenu()">menu</i>
             
         <menu id="itens">
             <ul>
-                <a href="a">
-                    <li>site 1</li>
-                </a>
-                <a href="a">
-                    <li>site 2</li>
-                </a>
-                <a href="a">
-                    <li>site 3</li>
-                </a>
-                <a href="a">
-                    <li>site 4</li>
-                </a>
-                <a href="a">
-                    <li>site 5</li>
-                </a>
+                
+                    <li><a href="#">site 1</a></li>
+                
+                    <li><a href="#">site 2</a></li>
+                
+                    <li><a href="#">site 3</a></li>
+                
+                    <li><a href="#">site 4</a></li>
+                
+                    <li><a href="#">site 5</a></li>
             </ul>
         </menu>
     </header>
@@ -44,10 +40,20 @@
     </main>
     <script>
         function clickMenu() {
-            var hamburguer = document.getElementById('clickMenu')
-            var itens = document.getElementById('itens')
-            itens.style.display = 'block'
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
             
+            
+        }
+        function Tamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'none'
+            }
         }
     </script>
 </body>

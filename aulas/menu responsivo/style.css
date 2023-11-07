@@ -22,32 +22,20 @@ h1{
 menu > ul {
     list-style-type: none;
     
+    
 }
 
-a{
-
-        
-    border: 2px solid rgb(96, 94, 94); 
-    width: 100%;
-    padding: 20px;
-    margin: -10px;
- 
-}
-menu ,a{
-    display: block;
+menu >ul >li > a {
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(74, 68, 68);
-    color: white;
+    display: block;
+    background-color:rgb(88, 87, 87);
     text-align: center;
-    
-    
-}
-
-ul{
     color: white;
-
+    border-top: 2px solid gray;
 }
+
+ 
 main{
     width: 90vw;
     background-color: white;
@@ -69,4 +57,5 @@ p{
     text-align: center;
     cursor: pointer;
     display: block;
+
 }

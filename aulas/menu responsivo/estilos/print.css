@@ -1,0 +1,17 @@
+@media screen and (min-width: 700px) {
+
+    i#hamburguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        margin: auto;
+    }
+    menu > ul > li{
+        display: inline-block;
+        
+    }
+    main{
+        width: 700px;
+    }
+}
