@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto+Mono:ital,wght@1,600&family=Sriracha&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+ }
+ header
+ {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #663AB5;
+    padding:40px;
+    color: #FDDB00;
+ }
+ body{
+    
+ }
+ .nav{
+    position: relative;
+ }
+ .nav > input{
+    margin-top: 15px;
+    height: 45px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    outline: none;
+ }
+ span{
+    position: absolute;
+    top: 40%;
+    transform: translateX(-130%);
+    
+ }
