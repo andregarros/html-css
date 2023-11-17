@@ -39,24 +39,26 @@ main{
     width: 420px;
 }
 .plano > h2{
-    font-family: 'Poppins';
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     padding-top: 20px;
     padding-left:  40px;
+    font-weight: normal;
  
 }
 .plano > h3{
+    margin-top: -15px;
     font-family: 'Poppins';
     padding-left: 40px;
     font-size: 2.5em;
     font-weight: bolder;
 
-    
 }
 .plano > p{
     position: relative;
-    padding-left: 250px;
+    padding-left: 230px;
     top: -50px;
+    font-weight: 400;
     
     
 }
@@ -64,7 +66,7 @@ main{
     font-size: 50px;
 }
 .banner{
-    margin-top: 5px;
+    margin-top: -10px;
     color: white;
     background-color: red;
     height: 180px ;
