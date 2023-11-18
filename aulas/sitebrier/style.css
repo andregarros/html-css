@@ -33,8 +33,9 @@ h1{
 }
 main{
     background-color: white;
-    height: 2300px;
+    height: 2050px;
     margin-top: 10px;
+    margin-bottom: 20px;
     margin: auto;
     width: 380px;
 }
@@ -59,8 +60,7 @@ main{
     padding-left: 200px;
     top: -50px;
     font-weight: 400;
-    
-    
+      
 }
 .valor{
     font-size: 50px;
@@ -108,3 +108,87 @@ main{
     text-decoration: none;
     color: white;
 }
+.mensal{
+    display: flex;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 20px 20px 0px 20px;
+    list-style: none;
+    border: 1px solid #ffffff;
+    width: 340px;
+}
+.mensal > ul,li{
+    list-style: none; 
+    padding-bottom: 20px;
+}
+.mensal > ul > h3{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #FF7200;
+    border-radius: 10px;
+}
+.Plano2{
+    padding-top: 20px;
+    padding-left:  40px;
+    font-weight: normal;
+}
+.Mensal2{
+    margin-top: -15px;
+    font-family: 'Poppins';
+    padding-left: 40px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.conclusao > p{
+    color: white;
+    font-size: 2em;
+    padding-top: 60px;
+    width: 400px;
+    padding-left: 40px;
+}
+.conclusao > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    padding: 15px 20px;
+    background-color: #10C919;
+    width: 250px;
+    border-radius: 10px;
+}
+.conclusao > h3 > img{
+    height: 20px;
+    padding-right: 5px;
+}
+.final{
+    background-color: white;
+    height: 400px;
+    margin-top: 40px;
+}
+.final > h2{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 2em;
+    width: 300px;
+    margin: auto;
+    padding-top: 50px;
+    color: #FF7200;
+}
+.final > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+    text-align: justify;
+    font-size: 1.1em;
+    text-align: center;
+    width: 420px;
+    margin: auto;
+}
+
