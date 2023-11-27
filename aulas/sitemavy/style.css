@@ -49,6 +49,7 @@ button{
     margin-left: 80px;
     transform: translate(-50%, -50%);
     transition: all 0.5s ease;
+    padding-top: 10px;
 
   /* adicionando transição suave para o movimento */ }
 #aceita{
@@ -57,6 +58,7 @@ button{
     left: 45%;
     transform: translate(-50%, -50%);
     justify-content: center;
+    padding-top: 10px;
       
 }
 footer{
