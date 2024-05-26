@@ -1,0 +1,65 @@
+@font-face {
+    font-family: ablack;
+    src: url(aBlackLives.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #1c1d22;
+}
+header{
+    color: white;
+    font-family: ablack ;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li{ /* alinhamento do menu*/
+    display: inline-block;
+    margin-right: 10px; /* opcional: adiciona um espaço entre os elementos */
+    font-size: 1.2em;
+    padding-right: 20px;
+    padding-top: 60px;
+    text-decoration: none;
+  }
+#cor1{
+    color: #d62c58; /* cor do texto dowload do menu*/
+}
+#quadrado1{
+    background-color: #6201f4;
+    width: 250px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+#quadrado1 > img{
+    width: 240px;
+    height: 390px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#quadrado2{
+    background-color: #6201f4 ;
+    width: 250px;
+    height: 400px;
+    margin-left: 400px ;
+    margin-top: -400px;
+    
+}
+#quadrado2 > img{
+    width: 240px;
+    height: 390px;
+    margin-left: 5px;
+    margin-top: -12px;
+}
+#quadrado3{
+    background-color: #6201f4 ;
+    width: 240px;
+    height: 390px;
+    float: left;
+}
